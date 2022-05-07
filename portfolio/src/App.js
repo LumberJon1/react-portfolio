@@ -31,8 +31,8 @@ function App() {
       <header>
         <Navbar
           currentPage={currentPage}
-          handlePageChange={handlePageChange}
-          ></Navbar>
+          handlePageChange={handlePageChange}>
+        </Navbar>
       </header>
       <main>
         {renderPage()}
