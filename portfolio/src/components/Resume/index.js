@@ -6,7 +6,9 @@ function Resume() {
     return(
         <section>
             <h1>My Resume</h1>
-            // Resume goes here
+            <div>
+                <a href="../../../public/resume.docx" download>Download</a>
+            </div>
         </section>
     )
 }
