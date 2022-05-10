@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="">
+      <header className="mb-2">
         <Navbar
           className=""
           currentPage={currentPage}
