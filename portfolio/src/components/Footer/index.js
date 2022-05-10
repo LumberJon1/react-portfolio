@@ -14,7 +14,7 @@ function Footer() {
             </div>
             <div>
                 <a href="https://www.hackerrank.com/JWilliams12117?hr_r=1">Hackerrank</a>
-                // GitHub icon
+                // Hackerrank icon
             </div>
         </div>
     )

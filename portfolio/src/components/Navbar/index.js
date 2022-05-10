@@ -5,35 +5,36 @@ function Navbar({currentPage, handlePageChange}) {
 
     // return render
     return(
-        <nav>
-            <ul className = "navbar">
-                <li className="nav-item">
+        <nav className="">
+            <ul className="m-0 p-0 flex flex-row justify-center items-center bg-slate-400">
+
+                <li className="nav-item mx-1 h-16 flex flex-col justify-center align-center p-1">
                     <a
-                        className={`navlink ${currentPage === 'About' ? 'nav-link active' : 'nav-link'}`}
+                        className={`navlink ${currentPage === 'About' ? 'navlink navActive' : 'navlink'}`}
                         href="#About"
                         onClick={() => handlePageChange("About")}>
-                        About Me
+                        About
                     </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-1 h-16 flex flex-col justify-center align-center p-1">
                     <a
-                        className={`navlink ${currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}`}
+                        className={`navlink ${currentPage === 'Portfolio' ? 'navlink navActive' : 'navlink'}`}
                         href="#Portfolio"
                         onClick={() => handlePageChange("Portfolio")}>
                         Portfolio
                     </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-1 h-16 flex flex-col justify-center align-center p-1">
                     <a
-                        className={`navlink ${currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}`}
+                        className={`navlink ${currentPage === 'Contact' ? 'navlink navActive' : 'navlink'}`}
                         href="#Contact"
                         onClick={() => handlePageChange("Contact")}>
                         Contact
                     </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item mx-1 h-16 flex flex-col justify-center align-center p-1">
                     <a
-                        className={`navlink ${currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}`}
+                        className={`navlink ${currentPage === 'Resume' ? 'navlink navActive' : 'navlink'}`}
                         href="#Resume"
                         onClick={() => handlePageChange("Resume")}>
                         Resume

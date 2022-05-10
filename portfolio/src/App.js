@@ -29,8 +29,9 @@ function App() {
 
   return (
     <div className="App">
-      <header>
+      <header className="">
         <Navbar
+          className=""
           currentPage={currentPage}
           handlePageChange={handlePageChange}>
         </Navbar>
