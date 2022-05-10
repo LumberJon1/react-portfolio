@@ -4,6 +4,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
       <main>
         {renderPage()}
       </main>
+      <Footer></Footer>
     </div>
   );
 }
