@@ -4,7 +4,7 @@ function Footer() {
     
     return (
         <div
-            className="flex flex-col justify-center items-start bg-slate-400 absolute inset-x-0 bottom-0 p-2"
+            className="flex flex-col justify-center items-start bg-slate-400 fixed inset-x-0 bottom-0 p-2"
             >
             <div>
                 <a className="text-cyan-300" href="https://github.com/LumberJon1">GitHub</a>

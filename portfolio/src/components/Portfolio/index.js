@@ -48,24 +48,26 @@ function Portfolio() {
 
     // return render
     return (
-        <section>
-            <h1>My Projects</h1>
-            {projects.map((project) => (
-                <div>
-                    <h2>{project.title}</h2>
-                    <img
-                        src={require(`../../assets/images/${project.fileNum}.jpg`)}
-                        alt={project.imgAlt}
-                        className=""
-                        />
-                    <p>{project.description}</p>
-                    <div>
-                        <a href={project.gitHubLink}>View Project Repo</a>
-                        <a href={project.deploymentLink}>View Project Deployment</a>
+        <section className="mb-24">
+            <h1 className="font-bold text-xl text-center">My Projects</h1>
+            <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center sm:items-between sm:min-h-full">
+                {projects.map((project) => (
+                    <div className="flex flex-col p-3 sm:w-5/12 sm:mx-3 lg:w-1/4 items-center">
+                        <h2 className="mb-3">{project.title}</h2>
+                        <img
+                            src={require(`../../assets/images/${project.fileNum}.jpg`)}
+                            alt={project.imgAlt}
+                            className="p-2 border border-slate-400 rounded shadow-xl mb-3"
+                            />
+                        <p className="p-2 text-center mb-2">{project.description}</p>
+                        <div className="bg-slate-400 w-full p-2 flex flex-row justify-between items-center">
+                            <a className="w-1/2 border rounded-lg mx-2 text-center text-sm text-slate-100 bg-slate-600 p-1" href={project.gitHubLink}>View Project Repo</a>
+                            <a className="w-1/2 border rounded-lg mx-2 text-center text-sm text-slate-100 bg-slate-600 p-1" href={project.deploymentLink}>View Project Deployment</a>
+                        </div>
                     </div>
-                </div>
-                        // key={project.title}
-            ))}
+                            // key={project.title}
+                ))}
+            </div>
         </section>
     )
 }

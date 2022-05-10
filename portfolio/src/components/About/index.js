@@ -6,7 +6,7 @@ function About() {
 
     // Return render
     return(
-        <div className="flex flex-col justify-center items-center px-3">
+        <div className="flex flex-col justify-center items-center px-3 mb-24">
             <h1
                 className="text-xl "
             >About Me</h1>
