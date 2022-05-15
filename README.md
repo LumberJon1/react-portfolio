@@ -1,28 +1,45 @@
-# react-portfolio
+# React Portfolio
+  ## Description
+  This portfolio hosts some of my most recent projects, information about me, and ways to get in touch and view my professional resume.
 
-## Acceptance Criteria...
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+  ## License
+  [<img src="https://img.shields.io/badge/License-MIT-blue.svg?logo=LOGO">](LINK)
+
+  ## Table of Contents
+  1. [Installation](#Installation)
+  2. [Deployment](#Deployment)
+  3. [Usage](#Usage)
+  4. [Screenshot](#Screenshot)
+  5. [Contributing](#Contributing)
+  6. [Technologies](#Technologies)
+  7. [Tests](#Tests)
+  8. [Questions](#Questions)
+
+  ## Installation
+  No installation is required to run this project.  View the 'Deployment' section to find the link to the site.
+
+  ## Deployment
+  https://
+
+  ## Usage
+  Take a look at the work I've produced!  If you have questions, reach out.
+
+  ## Screenshot
+  ![Screenshot](./)
+
+  ## Contributing
+  Please feel free to contact me if you have questions about contributing to this project.  Ypu can reach out via my email or GirHub account linked below.
+
+  ## Technologies
+  * React
+  * Node.js
+  * TailwindCSS
+  * Javascript
+
+  ## Tests
+  No testing frameworks were used in the development of this project, and it does not contain test files.
+
+  ## Questions
+  [Check out my GitHub](https://github.com/LumberJon1)
+  --or--
+  Email me at JWilliams12117@gmail.com
